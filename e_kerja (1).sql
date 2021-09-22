@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 30, 2021 at 06:16 AM
+-- Generation Time: Sep 22, 2021 at 10:28 AM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.6
 
@@ -136,7 +136,8 @@ INSERT INTO `tb_team` (`id_team`, `kode_team`, `nama_team`, `no_telpon`, `status
 (3, 'TM00003', 'adadonkk', '0893663817', 1),
 (5, 'TM00004', 'kas', '0893663817', 0),
 (6, 'TM00005', 'adalah', '89366381700', 0),
-(7, 'TM00006', 'verdian', '89366381700', 1);
+(7, 'TM00006', 'verdian', '89366381700', 1),
+(8, 'TM00007', 'adalah', '89366381700', 1);
 
 -- --------------------------------------------------------
 
@@ -238,7 +239,7 @@ ALTER TABLE `tb_pekerjaan`
 -- AUTO_INCREMENT for table `tb_team`
 --
 ALTER TABLE `tb_team`
-  MODIFY `id_team` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_team` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tb_user`

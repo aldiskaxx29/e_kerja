@@ -18,4 +18,4 @@
   <link rel="stylesheet" href="<?= base_url('assets') ?>/assets/css/components.css">
 </head>
 
-<body class="bg-primary">
+<body class="bg-white">

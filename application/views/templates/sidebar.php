@@ -79,7 +79,7 @@
       </ul>
 
         <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
-          <a href="<?= base_url('Admin/Dashboard/logout') ?>" class="btn btn-dark btn-lg btn-block btn-icon-split">
+          <a href="<?= base_url('Admin/Dashboard/logout') ?>" class="btn btn-dark btn-lg btn-block btn-icon-split" onclick="return confirm('Keluar Sistem Montorng Pekerjaan');" style="cursor: pointer;">
             <i class="fas fa-sign-out-alt"></i> Logout
           </a>
         </div>
