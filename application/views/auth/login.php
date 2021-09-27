@@ -4,6 +4,9 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-12 text-center mt-5">
+            <div class="login-brand">
+              <img src="<?= base_url('assets') ?>/img/LOGO_PT.png" alt="logo" width="100" >
+            </div>
               <h5>SISTEM MONIITORING PEKERJAAN</h5><br>
               <h2>PT. ANUGRAH TEKNIK NUSANTARA</h2>
             
@@ -71,7 +74,7 @@
               Don't have an account? <a href="<?= base_url('Auth/registrasi') ?>">Dafatar Siswa Baru</a>
             </div> -->
             <div class="simple-footer">
-              Copyright &copy; Stisla 2018
+              <!-- Copyright &copy; Stisla 2018 -->
             </div>
           </div>
         </div>

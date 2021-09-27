@@ -44,4 +44,14 @@ class Team extends CI_Controller{
         	redirect('Ketua/Team');
 		}
 	}
+
+	public function delete($id){
+		$where = ['id_team', $id];
+		$this->M_ketua->delete($where, 'tb_ketua');
+		$this->session->set_flashdata('team','<div class="alert alert-success alert-dismissible fade show" role="alert">
+		Data Berhasil Di Hapus
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<span aria-hidden="true">&times;</span></button></div>');
+    	redirect('Ketua/Team');
+	}
 }

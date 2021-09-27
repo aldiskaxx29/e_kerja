@@ -68,7 +68,7 @@
         <form action="" method="post" enctype="multipart/form-data">
           <div class="form-group">
             <label>Kode Pekerjaan</label>
-            <input type="text" name="kode_pekerjaan" class="form-control" value="<?= $kode ?>" readonly>
+            <input type="text" name="kode_pekerjaan" class="form-control">
             <?= form_error('kode_pekerjaan','<small class="text-danger text-form">','</small>') ?>
           </div>
           <div class="form-group">

@@ -31,6 +31,18 @@
         <?php endif ?> 
         <?php if($user['role_id'] == '2'): ?>
           <li class="<?php if ($this->uri->segment('2') == 'Dashboard'): ?> active <?php endif ?>">
+            <a href="<?= base_url('Ketua/Dashboard/') ?>" class="nav-link"><i class="fas fa-home"></i><span>Dashboard</span></a>
+          </li>
+          <li class="menu-header">Starter</li>
+          <!-- <li class="<?php if ($this->uri->segment('2') == 'Acc'): ?> active <?php endif ?>">
+            <a class="nav-link" href="<?= base_url('Ketua/Acc/')  ?>"><i class="fas fa-home"></i> <span>Acc</span></a>
+          </li> -->
+          <li class="<?php if ($this->uri->segment('2') == 'Team'): ?> active <?php endif ?>">
+            <a class="nav-link" href="<?= base_url('Ketua/Team/')  ?>"><i class="fas fa-users"></i> <span>Data Team</span></a>
+          </li>
+        <?php endif ?>
+        <?php if ($user['role_id'] == '3'): ?>
+           <li class="<?php if ($this->uri->segment('2') == 'Dashboard'): ?> active <?php endif ?>">
             <a href="<?= base_url('/Admin/Dashboard') ?>" class="nav-link"><i class="fas fa-home"></i><span>Dashboard</span></a>
           </li>
           <li class="menu-header">Starter</li>
@@ -53,27 +65,8 @@
          <!--  <li class="<?php if ($this->uri->segment('2') == 'User'): ?> active <?php endif ?>">
             <a class="nav-link" href="<?= base_url('Admin/User/')  ?>"><i class="fas fa-user"></i> <span>Data User</span></a>
           </li> -->
-        <?php endif ?>
-        <?php if ($user['role_id'] == '3'): ?>
-          <li class="<?php if ($this->uri->segment('2') == 'Dashboard'): ?> active <?php endif ?>">
-            <a href="<?= base_url('Ketua/Dashboard/') ?>" class="nav-link"><i class="fas fa-home"></i><span>Dashboard</span></a>
-          </li>
-          <li class="menu-header">Starter</li>
-          <!-- <li class="<?php if ($this->uri->segment('2') == 'Acc'): ?> active <?php endif ?>">
-            <a class="nav-link" href="<?= base_url('Ketua/Acc/')  ?>"><i class="fas fa-home"></i> <span>Acc</span></a>
-          </li> -->
-          <li class="<?php if ($this->uri->segment('2') == 'Team'): ?> active <?php endif ?>">
-            <a class="nav-link" href="<?= base_url('Ketua/Team/')  ?>"><i class="fas fa-users"></i> <span>Data Team</span></a>
-          </li>
-<!--           <li class="<?php if ($this->uri->segment('2') == 'Toko'): ?> active <?php endif ?>">
-            <a class="nav-link" href="<?= base_url('Ketua/Toko/')  ?>"><i class="fas fa-store"></i> <span>Toko</span></a>
-          </li>
-          <li class="<?php if ($this->uri->segment('2') == 'Order'): ?> active <?php endif ?>">
-            <a class="nav-link" href="<?= base_url('Pegawai/Order/')  ?>"><i class="fas fa-users"></i> <span>Order</span></a>
-          </li>
-          <li class="<?php if ($this->uri->segment('2') == 'Absen'): ?> active <?php endif ?>">
-            <a class="nav-link" href="<?= base_url('Pegawai/Absen/')  ?>"><i class="fas fa-user"></i> <span>Absen</span></a>
-          </li> -->
+
+          
         <?php endif ?>
 
       </ul>

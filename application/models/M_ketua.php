@@ -15,4 +15,9 @@ class M_ketua extends CI_Model{
 		$this->db->where($where);
 		$this->db->update($this->table,$data);
 	}
+
+	public function delete($where,$table){
+		// $this->db->where($where);
+		$this->db->delete($this->table,$where);
+	}
 }

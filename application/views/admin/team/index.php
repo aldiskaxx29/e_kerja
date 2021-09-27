@@ -36,7 +36,7 @@
                         <td>
                           <a href="<?= base_url('Admin/Team/delete/' . $t->id_team) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin Mau Di Hapus')"><i class="fas fa-trash"></i></a>
                           <a href="" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#exampleModalEdit<?= $t->id_team  ?>"><i class="fas fa-edit"></i></a>
-                          <a href="" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModalDetail<?= $t->id_team  ?>"><i class="fas fa-eye"></i></a>
+                          <!-- <a href="" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModalDetail<?= $t->id_team  ?>"><i class="fas fa-eye"></i></a> -->
                         </td>
                       </tr>
                     <?php endforeach ?>

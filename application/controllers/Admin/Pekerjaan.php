@@ -11,7 +11,7 @@ class Pekerjaan extends CI_Controller{
 		}
 		$data['title'] 	= 'Data Pekerjaan';
 		$data['user'] 	= $this->M_admin->get_where();
-		$data['kode'] 	= $this->M_pekerjaan->kodePekerjaan();
+		// $data['kode'] 	= $this->M_pekerjaan->kodePekerjaan();
 		$data['pekerjaan'] = $this->M_pekerjaan->get();
 		$data['lokasi'] 	= $this->M_lokasi->get();
 		$data['kegiatan'] 	= $this->M_kegiatan->get();
