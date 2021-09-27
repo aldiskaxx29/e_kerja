@@ -7,7 +7,7 @@
             <div class="login-brand">
               <img src="<?= base_url('assets') ?>/img/LOGO_PT.png" alt="logo" width="100" >
             </div>
-              <h5>SISTEM MONIITORING PEKERJAAN</h5><br>
+              <h5>SISTEM MONITORING PEKERJAAN</h5><br>
               <h2>PT. ANUGRAH TEKNIK NUSANTARA</h2>
             
           </div>
