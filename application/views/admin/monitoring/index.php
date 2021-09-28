@@ -38,7 +38,7 @@
                         <td><?= $mo->tanggal ?></td>
                         <td><?= $mo->keterangan ?></td>
                         <td>
-                          <a href="<?= base_url('Admin/Pekerjaan/delete/' . $mo->id_monitoring) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin Mau Di Hapus')"><i class="fas fa-trash"></i></a>
+                          <a href="<?= base_url('Admin/Monitoring/delete/' . $mo->id_monitoring) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin Mau Di Hapus')"><i class="fas fa-trash"></i></a>
                           <a href="" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#exampleModalEdit<?= $mo->id_monitoring  ?>"><i class="fas fa-edit"></i></a>
                           <a href="" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModalDetail<?= $mo->id_monitoring  ?>"><i class="fas fa-eye"></i></a>
                         </td>

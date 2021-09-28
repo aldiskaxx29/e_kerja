@@ -84,7 +84,7 @@ class Monitoring extends CI_Controller{
 		redirect('Admin/Monitoring');
 	}
 
-	public function delete(){
+	public function delete($id){
 		$where = ['id_monitoring' => $id];
 		$this->M_monitoring->delete($where);
 		$this->session->set_flashdata('monitor','<div class="alert alert-success alert-dismissible fade show" role="alert">
